@@ -1,0 +1,208 @@
+@charset "UTF-8";
+body {
+	 padding-top: 50px;
+	 height:100%;
+	 background-image: url(../img/bg2.jpg);
+}
+a {
+	cursor: pointer;
+}
+.main{
+	border: none;
+    box-shadow: none;
+    padding-bottom:300px;
+}
+.blog {
+	background-color:#fff;
+    padding:0;
+    height: 100%;
+    transition: all 0.3s ease 0s;
+    /* border-right: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+    border-radius: 15px */;
+    margin-top:30px;
+}
+.heading {
+	display: block;
+	font-size: 25px;
+	color: #DCDCDC;
+	text-align: center;
+	padding: 10px 0;
+	font-weight: 700;
+	border-bottom: 1px solid #f0f0f0;
+}
+.btn1 {
+	margin:10px;
+	position: relative;
+	left: 70%;
+}
+.btn2 {
+	margin:10px;
+	position: relative;
+	left: 88%;
+}
+.btn3 {
+	margin: 0 5px 0 0;
+	float:right;
+}
+.content {
+	background-color: #fff;
+	margin:0;
+	padding: 20px 40px;
+	display:block;
+	border-bottom: 2px solid #f0f0f0;
+}
+.content1 {
+	background-color: #fff;
+	margin:0;
+	padding: 15px 20px 15px 30px;
+	display:block;
+	border-bottom: 2px solid #f0f0f0;
+}
+.content1 span {
+	font-size: 16px;
+}
+.limits0 {
+	color:#000;
+}
+.limits1 {
+	color:#20B2AA;
+}
+.limits2 {	
+	color:#B22222;
+}
+.info {
+	font-size: 20px;
+	padding: 5px 50px;
+	display: block;
+}
+.form-control {
+	resize: none;
+	width:90%;
+	margin-top: 15px;
+	position: relative;
+	left: 5%; 
+}
+.form-control1 {
+	resize: none;
+	width:90%;
+	margin-top: 15px;
+	position: relative;
+}
+.footer {
+	text-align:center;
+	background: #000;
+    border: none;
+    box-shadow: none;
+    padding: 10px 20px;
+    height: 40px;
+    transition: all 0.3s ease 0s;
+}
+.form-horizontal .form-group {
+	padding: 0 60px;
+	margin: 0 0 30px 10px;
+	position: relative;
+}
+
+.form-horizontal .form-group-birth {
+	padding-left: 0px;
+	padding-right: 30px;
+	margin: 0 0 30px 10px;
+	position: relative;
+}
+
+.form-horizontal .form-group-address {
+	padding: 0 60px;
+	padding-left: 35px;
+	margin: 0 0 30px 10px;
+	position: relative;
+}
+
+.form-horizontal .form-control {
+	background: #f0f0f0;
+	border: none;
+	border-radius: 20px;
+	box-shadow: none;
+	padding: 0 20px;
+	height: 40px;
+	transition: all 0.3s ease 0s;
+}
+.form-horizontal .form-control1 {
+	background: #f0f0f0;
+	border: none;
+	border-radius: 20px;
+	box-shadow: none;
+	padding: 0 20px;
+	height: 40px;
+	transition: all 0.3s ease 0s;
+}
+.form-horizontal .form-control-address {
+	background: #f0f0f0;
+	border: none;
+	border-radius: 20px;
+	box-shadow: none;
+	padding: 0 20px;
+	width: 300px;
+	height: 40px;
+	resize: vertical;
+	transition: all 0.3s ease 0s;
+}
+
+.form-horizontal .form-control-birth {
+	background: #f0f0f0;
+	border: none;
+	border-radius: 20px;
+	box-shadow: none;
+	padding: 0 10px;
+	width: 98px;
+	height: 40px;
+	transition: all 0.3s ease 0s;
+}
+
+.form-horizontal .form-control:focus {
+	background: #e0e0e0;
+	box-shadow: none;
+	outline: 0 none;
+}
+.form-horizontal .form-control1:focus {
+	background: #e0e0e0;
+	box-shadow: none;
+	outline: 0 none;
+}
+
+.form-horizontal .text-muted {
+	float: left;
+	font-size: 16px;
+	margin-left: 7px;
+	line-height: 20px;
+	padding-top: 25px;
+	text-transform: capitalize;
+}
+
+#nameCheck {
+	position: absolute;
+	right: 250px;
+	top: 35px;
+	color: red;
+}
+#pwdCheck {
+	left: 50px;
+    position: relative;
+    top: -30px;
+}
+
+.form-horizontal .btn {
+	float: right;
+	font-size: 14px;
+	color: #fff;
+	background: #00b4ef;
+	border-radius: 30px;
+	padding: 10px 25px;
+	margin-right: 25px;
+	border : none;
+	text-transform: capitalize;
+	transition: all 0.5s ease 0s;
+	border: none;
+	position: relative;
+	right: 20px;
+}
